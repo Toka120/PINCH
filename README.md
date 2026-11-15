@@ -16,6 +16,14 @@ Pour protéger les refuges de la **Marée blanche**, Astra a choisi le silence. 
 
 Aucune installation nécessaire. Le fichier distribué conserve le nom `PINCH-Portable.exe` pour garder le lien de téléchargement existant ; vous pouvez le renommer **Sensory.exe**.
 
+### Préversion Unity : le suivi des mains en priorité
+
+[**Essayer la première salle Unity pour Windows**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.1/PINCH-Portable.exe)
+
+La migration a commencé : sas obligatoire, deux mains articulées, relique à saisir, sac et couronne aimantée. Le suivi natif tourne indépendamment du rendu, avec un repère vidéo constant, des identités persistantes, une pince mesurée en 3D estimée et un diagnostic visible. Il utilise toujours MediaPipe ; les doigts occultés et certaines rotations restent difficiles avec une webcam.
+
+**Toute l’aventure n’est pas encore portée dans Unity.** Le pupitre central de cette préversion permet d’ouvrir la version complète 2.4.1 embarquée, avec ses sauvegardes et ses exercices. Le nouveau suivi s’applique pour le moment à la salle Unity. [Lire les détails de la préversion](https://github.com/Toka120/PINCH/releases/tag/v3.0.0-preview.1).
+
 ## Vos gestes font le jeu
 
 - **Pincez le pouce et l’index** pour saisir une relique, puis déplacez votre main pour la transporter.
