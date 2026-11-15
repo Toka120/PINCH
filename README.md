@@ -2,6 +2,10 @@
 
 Un escape game orbital, un peu magique, où vos mains deviennent les commandes. Explorez l’arche, collectez les reliques et ouvrez la Porte des Astres.
 
+**Version 2.4.0 :** mains holographiques articulées en 3D, couleurs plus stables après les courtes pertes de suivi et commandes regroupées dans une console centrale à quatre grandes cases. Le suivi d’une caméra unique reste une estimation, notamment lorsque les doigts se masquent.
+
+![Console centrale utilisable à l’index](https://github.com/Toka120/PINCH/releases/download/v2.4.0/COMMANDES.png)
+
 **Version 2.3.0 :** envoyez les souvenirs et transmissions hors de l’écran d’un balayage de la main ouverte, vers la gauche ou la droite. Les panneaux accompagnent votre geste avant de disparaître.
 
 **Nouveau dans la version 2.2.2 :** recherche des mains éloignées dans des zones agrandies, suivi des deux mains plus stable et aperçu de calibration agrandi avec compteur. PINCH demande une image HD si la webcam le permet ; la portée réelle dépend aussi de l’éclairage et du matériel.
