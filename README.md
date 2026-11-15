@@ -2,6 +2,8 @@
 
 Un escape game orbital, un peu magique, où vos mains deviennent les commandes. Explorez l’arche, collectez les reliques et ouvrez la Porte des Astres.
 
+**Correctif 2.4.1 :** validation des paumes et poignets, confirmation des nouvelles mains sur plusieurs images et regroupement renforcé des doubles détections avant la calibration.
+
 **Version 2.4.0 :** mains holographiques articulées en 3D, couleurs plus stables après les courtes pertes de suivi et commandes regroupées dans une console centrale à quatre grandes cases. Le suivi d’une caméra unique reste une estimation, notamment lorsque les doigts se masquent.
 
 ![Mains holographiques articulées — rendu avec poses de test](https://github.com/Toka120/PINCH/releases/download/v2.4.0/MAINS-3D.png)
