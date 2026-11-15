@@ -4,6 +4,8 @@ Un petit jeu Windows où votre webcam transforme vos mains en contrôleurs : pin
 
 ## Télécharger et jouer
 
+[**Télécharger PINCH pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
+
 Ouvrez **Releases** sur ce dépôt, puis téléchargez **PINCH-Portable.exe** dans les fichiers de la version la plus récente. Les archives « Source code » ne contiennent pas l’application Windows.
 
 1. Double-cliquez sur **PINCH-Portable.exe**. Aucune installation nécessaire.
