@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760">
+<svg x="100" y="0" width="400" height="400" viewBox="0 0 200 200">
+<defs>
+  <radialGradient id="firis" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#3FA067"/>
+    <stop offset="55%" stop-color="#1A472A"/>
+    <stop offset="100%" stop-color="#07120B"/>
+  </radialGradient>
+  <clipPath id="flid"><path d="M28,100 Q100,40 172,100 Q100,160 28,100 Z"/></clipPath>
+</defs>
+<circle cx="100" cy="100" r="95" fill="none" stroke="#C8CCD2" stroke-width="1.4"/>
+<circle cx="100" cy="100" r="89" fill="none" stroke="#C8CCD2" stroke-width="7" stroke-dasharray="0.9 10.75" stroke-opacity="0.7"/>
+<circle cx="100" cy="100" r="84" fill="none" stroke="#C8CCD2" stroke-width="0.8"/>
+<line x1="100.0" y1="56.0" x2="100.0" y2="22.0" stroke="#C8CCD2" stroke-width="1.6"/><line x1="115.0" y1="58.7" x2="126.7" y2="26.7" stroke="#C8CCD2" stroke-width="1.6"/><line x1="85.0" y1="58.7" x2="73.3" y2="26.7" stroke="#C8CCD2" stroke-width="1.6"/><line x1="128.3" y1="66.3" x2="150.1" y2="40.2" stroke="#C8CCD2" stroke-width="1.6"/><line x1="71.7" y1="66.3" x2="49.9" y2="40.2" stroke="#C8CCD2" stroke-width="1.6"/>
+<path d="M28,100 Q100,40 172,100 Q100,160 28,100 Z" fill="#050506"/>
+<g clip-path="url(#flid)">
+  <circle cx="100" cy="100" r="31" fill="url(#firis)"/>
+  <circle cx="100" cy="100" r="31" fill="none" stroke="#3FA067" stroke-opacity="0.5" stroke-width="1"/>
+  <path d="M100,72 Q109,100 100,128 Q91,100 100,72 Z" fill="#050506"/>
+  <circle cx="110" cy="88" r="3.2" fill="#E6E8EB" fill-opacity="0.85"/>
+</g>
+<path d="M28,100 Q100,40 172,100 Q100,160 28,100 Z" fill="none" stroke="#E6E8EB" stroke-width="2.2"/>
+<line x1="100" y1="131" x2="100" y2="147" stroke="#C8CCD2" stroke-width="1.6"/>
+<path d="M100,146 C96,155 94.5,159 100,164 C105.5,159 104,155 100,146 Z" fill="#3FA067"/>
+</svg>
+<g transform="translate(74,478) scale(1.2)">
+<path fill="none" stroke="#E6E8EB" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter" d="M0,100 L0,0 L30,62 L60,0 L60,100"/>
+<path fill="none" stroke="#E6E8EB" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter" d="M88,0 L88,100"/>
+<path fill="none" stroke="#E6E8EB" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter" d="M116,100 L116,0 L146,0 A25,25 0 0 1 146,50 L116,50 M140,50 L170,100"/>
+<circle fill="none" stroke="#E6E8EB" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter" cx="246" cy="50" r="47"/>
+<path d="M246,22 Q256,50 246,78 Q236,50 246,22 Z" fill="#3FA067"/>
+<path fill="none" stroke="#E6E8EB" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter" d="M322,100 L322,0 L352,0 A25,25 0 0 1 352,50 L322,50 M346,50 L376,100"/>
+</g>
+<line x1="74" y1="700" x2="170" y2="700" stroke="#C8CCD2" stroke-width="1.5"/>
+<line x1="430" y1="700" x2="526" y2="700" stroke="#C8CCD2" stroke-width="1.5"/>
+<text x="309" y="712" text-anchor="middle" font-family="Lora, serif" font-size="32" letter-spacing="18" fill="#C8CCD2">STUDIO</text>
+</svg>
