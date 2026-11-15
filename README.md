@@ -4,7 +4,7 @@ Un escape game orbital, un peu magique, où vos mains deviennent les commandes. 
 
 **Version 2.4.0 :** mains holographiques articulées en 3D, couleurs plus stables après les courtes pertes de suivi et commandes regroupées dans une console centrale à quatre grandes cases. Le suivi d’une caméra unique reste une estimation, notamment lorsque les doigts se masquent.
 
-![Console centrale utilisable à l’index](https://github.com/Toka120/PINCH/releases/download/v2.4.0/COMMANDES.png)
+![Mains holographiques articulées — rendu avec poses de test](https://github.com/Toka120/PINCH/releases/download/v2.4.0/MAINS-3D.png)
 
 **Version 2.3.0 :** envoyez les souvenirs et transmissions hors de l’écran d’un balayage de la main ouverte, vers la gauche ou la droite. Les panneaux accompagnent votre geste avant de disparaître.
 
