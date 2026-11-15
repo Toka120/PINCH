@@ -1,38 +1,46 @@
-# PINCH · ORBIT
+# PINCH · ORBIT — Les Éclats d’Astra
 
-Un atelier spatial 3D où vos mains deviennent les commandes. Pincez le pouce et l’index pour attraper les objets, déplacez-les, puis ouvrez les doigts pour les relâcher.
+Un escape game orbital, un peu magique, où vos mains deviennent les commandes. Explorez l’arche, collectez les reliques et ouvrez la Porte des Astres.
 
-[**Télécharger ORBIT pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
+[**Télécharger pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
 
-![La station ORBIT](https://github.com/Toka120/PINCH/releases/download/v2.0.0/ORBIT.png)
+![ORBIT — Les Éclats d’Astra](https://github.com/Toka120/PINCH/releases/download/v2.2.0/ORBIT.png)
 
-## Avant le décollage
+## Une station qui a des choses à raconter
 
-1. Téléchargez **PINCH-Portable.exe** et lancez-le directement. Aucune installation nécessaire.
-2. Cliquez sur **Activer ma caméra** dans le sas de préparation.
-3. Calibrez vos pinces, votre espace de mouvement et votre précision. Chaque étape validée passe automatiquement à la suivante.
-4. Les trois portails s’ouvrent : choisissez librement votre activité.
+Astra s’est isolée pour protéger des refuges de la **Marée blanche**, une anomalie qui efface les chemins entre les étoiles. **Élye**, une présence née des messages laissés par les voyageurs, vous accompagne. En explorant, vous découvrirez les traces des deux sœurs Venn et du cartographe Naël.
 
-**La calibration est obligatoire avant chaque session.** Une webcam et un endroit éclairé sont nécessaires. Les réglages et la progression sont sauvegardés sur votre PC.
+La version enrichie ajoute **13 souvenirs**, **8 transmissions**, **trois fragments cachés** et un épilogue facultatif. Les secrets ne bloquent pas la sortie principale et restent accessibles après une première fin. Le journal sépare les indices des mémoires ; on peut tourner ses pages et relire les messages avec l’index posé.
 
-## Votre station, votre rythme
+![Un souvenir d’Astra](https://github.com/Toka120/PINCH/releases/download/v2.2.0/MEMOIRES.png)
 
-| Activité | Objectif |
-| --- | --- |
-| Construction | Réassemblez les fragments de la balise orbitale |
-| Précision | Placez les objets dans leurs orbites et stabilisez vos gestes |
-| Jeu libre | Manipulez et composez librement avec cinq objets |
+## Vos gestes font le jeu
 
-Les emplacements aimantés aident à stabiliser les placements. Les missions réussies rapportent de la poussière d’étoiles et leurs placements varient. Les objets sont rendus en 3D et déplacés sur un plan face à vous ; la profondeur n’est pas contrôlée par la webcam.
+- **Posez l’index sur une commande environ 0,75 seconde** : l’anneau se remplit et le bouton s’active. Retirez le doigt de la zone avant de recommencer.
+- **Pincez** pour saisir un objet et déplacez votre main pour le transporter.
+- **Glissez dans le sac**, puis ouvrez les doigts pour ranger la relique.
+- **Reprenez depuis le sac**, puis déposez l’objet sur un emplacement de lumière pour l’utiliser.
 
-Les cinq exercices historiques restent disponibles via **Entraînement**, dans le même EXE. Après calibration, souris et tactile restent possibles si vous arrêtez la caméra. Les sons sont facultatifs et désactivés au départ.
+La carte, le journal, les runes et les passages suivants sont activables par l’index posé. Une mauvaise utilisation ne détruit pas vos objets et une perte de suivi ne fait pas disparaître une relique du sac.
 
-## Configuration et confidentialité
+## Une aventure entre les étoiles
 
-Windows 64 bits, webcam, rendu WebGL 2. L’application fonctionne hors ligne et n’a pas besoin de Node.js ou d’un navigateur installé.
+Cinq lieux à découvrir et à revisiter :
 
-Le traitement des mains se fait sur votre PC. L’application n’enregistre pas et n’envoie pas la vidéo. Le bouton caméra permet de l’arrêter. En cas de refus, autorisez la caméra pour les applications de bureau dans les paramètres de confidentialité Windows.
+- Le **Sas des Échos**, cœur endormi de la station.
+- Le **Jardin des Comètes**, où poussent les cristaux d’éther.
+- Les **Archives Lunaires**, gardiennes des trois runes.
+- L’**Observatoire**, qui se souvient du ciel.
+- La **Porte des Astres**, dernier voile avant la liberté.
 
-Cette première V1 n’est pas signée numériquement : Windows peut afficher un avertissement. Les tests automatisés vérifient le rendu, la calibration simulée et les interactions ; le confort réel dépend de votre webcam et de l’éclairage.
+Le journal conserve les indices ; le sac et les énigmes résolues sont sauvegardés sur votre PC. Ce premier épisode possède une fin et peut être rejoué. Les ateliers Construction, Précision et Jeu libre, ainsi que les cinq exercices historiques, restent dans le même EXE.
 
-Suivi : MediaPipe Tasks Vision. Rendu 3D : Three.js. Application Windows : Electron. Fond spatial généré pour ORBIT.
+## Avant de jouer
+
+Téléchargez **PINCH-Portable.exe**, lancez-le et cliquez sur **Activer ma caméra**. Une **calibration obligatoire** des pinces, de l’espace et de la précision précède chaque session. Pour continuer après une étape validée, gardez l’index sur le bouton Continuer ou cliquez dessus.
+
+Windows 64 bits, webcam et éclairage suffisant. Aucune installation et aucune connexion Internet nécessaires pour jouer. Après calibration, souris et tactile restent possibles si la caméra est arrêtée. Les objets sont affichés en 3D et déplacés sur un plan face à vous.
+
+La vidéo est traitée sur votre PC, sans enregistrement ni envoi. L’EXE n’est pas signé numériquement ; Windows peut afficher un avertissement. Les tests vérifient la calibration simulée, les gestes, les interactions et le scénario ; le suivi réel dépend de la webcam et de l’éclairage.
+
+Suivi : MediaPipe Tasks Vision. Rendu : Three.js. Application : Electron. Fond spatial généré pour ORBIT.
