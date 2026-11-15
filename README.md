@@ -2,6 +2,12 @@
 
 Un escape game orbital, un peu magique, où vos mains deviennent les commandes. Explorez l’arche, collectez les reliques et ouvrez la Porte des Astres.
 
+### Caméra utilisée dans une autre application
+
+La version 2.2.1 ajoute un lecteur Windows en **lecture partagée**, essayé automatiquement si la webcam par défaut est occupée. Le sas permet aussi de choisir directement ce mode ou une caméra virtuelle installée. Les images restent sur votre PC ; aucun microphone n’est demandé.
+
+Si le pilote refuse encore le partage : **Paramètres Windows → Bluetooth et appareils → Caméras → votre caméra → Options avancées → Autoriser plusieurs applications à utiliser la caméra** (Windows 11 récent, selon disponibilité). Une caméra virtuelle ou une seconde webcam reste nécessaire avec certains pilotes exclusifs. [Explications Microsoft](https://support.microsoft.com/en-us/windows/hardware/camera/manage-cameras-with-camera-settings-in-windows-11).
+
 [**Télécharger pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
 
 ![ORBIT — Les Éclats d’Astra](https://github.com/Toka120/PINCH/releases/download/v2.2.0/ORBIT.png)
