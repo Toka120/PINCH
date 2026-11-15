@@ -1,47 +1,34 @@
-# PINCH · ORBIT — Les Éclats d’Astra
+# Sensory — Les Éclats d’Astra
 
-Un escape game orbital, un peu magique, où vos mains deviennent les commandes. Explorez l’arche, collectez les reliques et ouvrez la Porte des Astres.
+### Une aventure MirorStudio · Vos mains sont la clé
 
-**Correctif 2.4.1 :** validation des paumes et poignets, confirmation des nouvelles mains sur plusieurs images et regroupement renforcé des doubles détections avant la calibration.
+<p align="center"><img src="assets/mirorstudio-logo.svg" width="120" alt="MirorStudio"></p>
 
-**Version 2.4.0 :** mains holographiques articulées en 3D, couleurs plus stables après les courtes pertes de suivi et commandes regroupées dans une console centrale à quatre grandes cases. Le suivi d’une caméra unique reste une estimation, notamment lorsque les doigts se masquent.
+![Sensory — une main translucide saisit une relique devant l’arche orbitale d’Astra](assets/sensory-opening.png)
 
-![Mains holographiques articulées — rendu avec poses de test](https://github.com/Toka120/PINCH/releases/download/v2.4.0/MAINS-3D.png)
+*Illustration d’ambiance de Sensory ; ce visuel n’est pas une capture du jeu.*
 
-**Version 2.3.0 :** envoyez les souvenirs et transmissions hors de l’écran d’un balayage de la main ouverte, vers la gauche ou la droite. Les panneaux accompagnent votre geste avant de disparaître.
+Pour protéger les refuges de la **Marée blanche**, Astra a choisi le silence. À bord de l’arche orbitale, des reliques attendent de retrouver leur place. Guidé par **Élye**, explorez les lieux, reliez les indices et rouvrez le passage vers les étoiles.
 
-**Nouveau dans la version 2.2.2 :** recherche des mains éloignées dans des zones agrandies, suivi des deux mains plus stable et aperçu de calibration agrandi avec compteur. PINCH demande une image HD si la webcam le permet ; la portée réelle dépend aussi de l’éclairage et du matériel.
+**Sensory** est un escape game orbital joué avec les mains devant une webcam : pincez pour saisir, déplacez les reliques et utilisez-les ailleurs dans la station. Les mains holographiques font le lien entre vos gestes et le monde du jeu.
 
-### Caméra utilisée dans une autre application
+[**Télécharger Sensory pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
 
-La version 2.2.1 ajoute un lecteur Windows en **lecture partagée**, essayé automatiquement si la webcam par défaut est occupée. Le sas permet aussi de choisir directement ce mode ou une caméra virtuelle installée. Les images restent sur votre PC ; aucun microphone n’est demandé.
-
-Si le pilote refuse encore le partage : **Paramètres Windows → Bluetooth et appareils → Caméras → votre caméra → Options avancées → Autoriser plusieurs applications à utiliser la caméra** (Windows 11 récent, selon disponibilité). Une caméra virtuelle ou une seconde webcam reste nécessaire avec certains pilotes exclusifs. [Explications Microsoft](https://support.microsoft.com/en-us/windows/hardware/camera/manage-cameras-with-camera-settings-in-windows-11).
-
-[**Télécharger pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
-
-![ORBIT — Les Éclats d’Astra](https://github.com/Toka120/PINCH/releases/download/v2.2.0/ORBIT.png)
-
-## Une station qui a des choses à raconter
-
-Astra s’est isolée pour protéger des refuges de la **Marée blanche**, une anomalie qui efface les chemins entre les étoiles. **Élye**, une présence née des messages laissés par les voyageurs, vous accompagne. En explorant, vous découvrirez les traces des deux sœurs Venn et du cartographe Naël.
-
-La version enrichie ajoute **13 souvenirs**, **8 transmissions**, **trois fragments cachés** et un épilogue facultatif. Les secrets ne bloquent pas la sortie principale et restent accessibles après une première fin. Le journal sépare les indices des mémoires ; on peut tourner ses pages et relire les messages avec l’index posé.
-
-![Un souvenir d’Astra](https://github.com/Toka120/PINCH/releases/download/v2.2.0/MEMOIRES.png)
+Aucune installation nécessaire. Le fichier distribué conserve le nom `PINCH-Portable.exe` pour garder le lien de téléchargement existant ; vous pouvez le renommer **Sensory.exe**.
 
 ## Vos gestes font le jeu
 
-- **Posez l’index sur une commande environ 0,75 seconde** : l’anneau se remplit et le bouton s’active. Retirez le doigt de la zone avant de recommencer.
-- **Pincez** pour saisir un objet et déplacez votre main pour le transporter.
-- **Glissez dans le sac**, puis ouvrez les doigts pour ranger la relique.
-- **Reprenez depuis le sac**, puis déposez l’objet sur un emplacement de lumière pour l’utiliser.
+- **Pincez le pouce et l’index** pour saisir une relique, puis déplacez votre main pour la transporter.
+- **Ouvrez les doigts** pour la relâcher ou la ranger dans le sac orbital.
+- **Reprenez une relique du sac** et utilisez-la sur un mécanisme dans un autre lieu.
+- **Posez l’index environ 0,75 seconde sur une commande** : un anneau se remplit, puis le bouton s’active. Retirez le doigt avant de recommencer.
+- **Balayez avec la main ouverte** pour fermer les souvenirs, les transmissions et les épilogues.
 
-La carte, le journal, les runes et les passages suivants sont activables par l’index posé. Une mauvaise utilisation ne détruit pas vos objets et une perte de suivi ne fait pas disparaître une relique du sac.
+Le bouton **Commandes**, au centre du terrain, ouvre une console à quatre grandes cases. Une mauvaise utilisation ne détruit pas vos reliques ; la progression est sauvegardée sur votre PC.
 
-## Une aventure entre les étoiles
+## Une arche à explorer
 
-Cinq lieux à découvrir et à revisiter :
+Cinq lieux reliés, à découvrir et à revisiter :
 
 - Le **Sas des Échos**, cœur endormi de la station.
 - Le **Jardin des Comètes**, où poussent les cristaux d’éther.
@@ -49,14 +36,38 @@ Cinq lieux à découvrir et à revisiter :
 - L’**Observatoire**, qui se souvient du ciel.
 - La **Porte des Astres**, dernier voile avant la liberté.
 
-Le journal conserve les indices ; le sac et les énigmes résolues sont sauvegardés sur votre PC. Ce premier épisode possède une fin et peut être rejoué. Les ateliers Construction, Précision et Jeu libre, ainsi que les cinq exercices historiques, restent dans le même EXE.
+Élye est une présence née des messages librement confiés à la station. Les traces des sœurs Iria et Mara Venn et du cartographe Naël accompagnent votre exploration.
+
+Le journal conserve les indices ; le sac et les énigmes résolues sont sauvegardés. **13 souvenirs, 8 transmissions, trois fragments cachés et un épilogue alternatif** enrichissent l’aventure. Les secrets restent facultatifs et accessibles après la fin normale.
+
+Les ateliers **Construction**, **Précision** et **Jeu libre**, ainsi que les **cinq exercices historiques** accessibles par Entraînement, restent dans la même application.
 
 ## Avant de jouer
 
-Téléchargez **PINCH-Portable.exe**, lancez-le et cliquez sur **Activer ma caméra**. Une **calibration obligatoire** des pinces, de l’espace et de la précision précède chaque session. Pour continuer après une étape validée, gardez l’index sur le bouton Continuer ou cliquez dessus.
+Lancez Sensory, découvrez le générique **MirorStudio** et le synopsis, puis cliquez sur **Commencer le voyage**. Activez la caméra et effectuez la **calibration obligatoire à chaque session** : vos pinces, votre espace, votre précision. Après chaque étape validée, posez l’index sur **Continuer** ou cliquez sur le bouton.
 
-Windows 64 bits, webcam et éclairage suffisant. Aucune installation et aucune connexion Internet nécessaires pour jouer. Après calibration, souris et tactile restent possibles si la caméra est arrêtée. Les objets sont affichés en 3D et déplacés sur un plan face à vous.
+**Windows 64 bits, webcam et éclairage suffisant.** Aucune connexion Internet nécessaire pour jouer. Après calibration, souris et tactile restent possibles si la caméra est arrêtée. Les objets sont affichés en 3D et déplacés sur un plan face à vous.
 
-La vidéo est traitée sur votre PC, sans enregistrement ni envoi. L’EXE n’est pas signé numériquement ; Windows peut afficher un avertissement. Les tests vérifient la calibration simulée, les gestes, les interactions et le scénario ; le suivi réel dépend de la webcam et de l’éclairage.
+La vidéo est traitée sur votre PC, sans enregistrement ni envoi. Aucun microphone n’est demandé. Le suivi d’une caméra unique reste une estimation : sa qualité dépend de la webcam, de l’éclairage et des doigts masqués.
 
-Suivi : MediaPipe Tasks Vision. Rendu : Three.js. Application : Electron. Fond spatial généré pour ORBIT.
+### Si la caméra est déjà utilisée
+
+Sensory essaie un lecteur Windows en **lecture partagée** si la webcam par défaut est occupée. Le sas permet aussi de sélectionner cette source ou une caméra virtuelle installée. Certains pilotes exclusifs empêchent encore le partage ; une autre webcam ou une caméra virtuelle peut alors être nécessaire.
+
+Sur les versions Windows compatibles, les paramètres de caméra peuvent proposer une option multi-application. [Explications Microsoft](https://support.microsoft.com/en-us/windows/hardware/camera/manage-cameras-with-camera-settings-in-windows-11).
+
+L’EXE n’est pas signé numériquement ; Windows peut afficher un avertissement.
+
+## Dernières améliorations
+
+**2.4.1** — Validation des paumes et poignets, confirmation des nouvelles mains sur plusieurs images et regroupement renforcé des doubles détections avant la calibration.
+
+**2.4.0** — Mains holographiques articulées en 3D, identités plus stables après de courtes pertes de suivi et console centrale à quatre grandes commandes.
+
+**2.3.0** — Fermeture des souvenirs et transmissions par balayage de la main ouverte.
+
+---
+
+**Sensory · MirorStudio**  
+Suivi : MediaPipe Tasks Vision · Rendu : Three.js · Application : Electron.  
+Ancien nom du projet : PINCH ORBIT. Le dépôt et le nom de l’artefact de distribution sont conservés pour la continuité des liens.
