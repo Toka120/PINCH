@@ -1,41 +1,38 @@
-# PINCH — Le jeu entre vos mains
+# PINCH · ORBIT
 
-Un petit jeu Windows où votre webcam transforme vos mains en contrôleurs : pincez le pouce et l’index pour attraper les carrés, déplacez-les, puis relâchez.
+Un atelier spatial 3D où vos mains deviennent les commandes. Pincez le pouce et l’index pour attraper les objets, déplacez-les, puis ouvrez les doigts pour les relâcher.
 
-**Version 1.3.2** : correction des cibles de calibration de l’espace. Placez l’index dans le cercle, pincez 0,2 seconde, puis ouvrez les doigts. La pince peut commencer avant d’entrer dans le cercle. Le suivi stabilisé, l’aimantation du niveau 005 et les réglages existants sont conservés.
+[**Télécharger ORBIT pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
 
-## Télécharger et jouer
+![La station ORBIT](https://github.com/Toka120/PINCH/releases/download/v2.0.0/ORBIT.png)
 
-[**Télécharger PINCH pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
+## Avant le décollage
 
-Ouvrez **Releases** sur ce dépôt, puis téléchargez **PINCH-Portable.exe** dans les fichiers de la version la plus récente. Les archives « Source code » ne contiennent pas l’application Windows.
+1. Téléchargez **PINCH-Portable.exe** et lancez-le directement. Aucune installation nécessaire.
+2. Cliquez sur **Activer ma caméra** dans le sas de préparation.
+3. Calibrez vos pinces, votre espace de mouvement et votre précision. Chaque étape validée passe automatiquement à la suivante.
+4. Les trois portails s’ouvrent : choisissez librement votre activité.
 
-1. Double-cliquez sur **PINCH-Portable.exe**. Aucune installation nécessaire.
-2. Cliquez sur **Activer la caméra**.
-3. Commencez au **niveau 003** pour calibrer vos mains, puis passez aux niveaux suivants.
+**La calibration est obligatoire avant chaque session.** Une webcam et un endroit éclairé sont nécessaires. Les réglages et la progression sont sauvegardés sur votre PC.
 
-Configuration : Windows 64 bits, webcam et éclairage suffisant. L’application fonctionne hors ligne ; vos amis n’ont pas besoin d’installer Node.js ou un navigateur.
+## Votre station, votre rythme
 
-## Les cinq niveaux
-
-| Niveau | Activité |
+| Activité | Objectif |
 | --- | --- |
-| 001 | Une main, un carré à attraper |
-| 002 | Deux mains, deux carrés indépendants |
-| 003 | Cinq cycles ouvrir, pincer, relâcher par main |
-| 004 | Calibration de votre espace de mouvement confortable |
-| 005 | Placement précis des deux carrés et relâchement séparé |
+| Construction | Réassemblez les fragments de la balise orbitale |
+| Précision | Placez les objets dans leurs orbites et stabilisez vos gestes |
+| Jeu libre | Manipulez et composez librement avec cinq objets |
 
-Les réglages sont conservés localement sur votre PC. Le bouton **Refaire la calibration** permet de recommencer. Gardez une distance similaire à la caméra après calibration.
+Les emplacements aimantés aident à stabiliser les placements. Les missions réussies rapportent de la poussière d’étoiles et leurs placements varient. Les objets sont rendus en 3D et déplacés sur un plan face à vous ; la profondeur n’est pas contrôlée par la webcam.
 
-## Caméra et confidentialité
+Les cinq exercices historiques restent disponibles via **Entraînement**, dans le même EXE. Après calibration, souris et tactile restent possibles si vous arrêtez la caméra. Les sons sont facultatifs et désactivés au départ.
 
-Le traitement vidéo se fait sur votre PC. L’application n’enregistre pas et n’envoie pas les images de la webcam. **Arrêter la caméra** coupe la vidéo.
+## Configuration et confidentialité
 
-Si la caméra est refusée, vérifiez l’autorisation d’accès à la caméra pour les applications de bureau dans les paramètres de confidentialité Windows. Une seule caméra est utilisée ; la souris ou le tactile permettent aussi de déplacer les carrés, mais la calibration nécessite vos mains devant la webcam.
+Windows 64 bits, webcam, rendu WebGL 2. L’application fonctionne hors ligne et n’a pas besoin de Node.js ou d’un navigateur installé.
 
-## Version de démonstration
+Le traitement des mains se fait sur votre PC. L’application n’enregistre pas et n’envoie pas la vidéo. Le bouton caméra permet de l’arrêter. En cas de refus, autorisez la caméra pour les applications de bureau dans les paramètres de confidentialité Windows.
 
-L’exécutable n’est pas signé numériquement ; Windows peut donc afficher un avertissement. La détection peut être moins fiable lorsque les mains se croisent, sortent du champ ou sont mal éclairées. Les tests automatiques vérifient les interactions et les gestes simulés ; la précision réelle dépend de votre webcam.
+Cette première V1 n’est pas signée numériquement : Windows peut afficher un avertissement. Les tests automatisés vérifient le rendu, la calibration simulée et les interactions ; le confort réel dépend de votre webcam et de l’éclairage.
 
-Le suivi des mains utilise MediaPipe Tasks Vision (Google). L’application Windows utilise Electron.
+Suivi : MediaPipe Tasks Vision. Rendu 3D : Three.js. Application Windows : Electron. Fond spatial généré pour ORBIT.
