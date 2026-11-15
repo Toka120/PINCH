@@ -2,6 +2,8 @@
 
 Un petit jeu Windows où votre webcam transforme vos mains en contrôleurs : pincez le pouce et l’index pour attraper les carrés, déplacez-les, puis relâchez.
 
+**Version 1.3.1** : curseur au bout de l’index, suivi stabilisé et aimantation des carrés dans les cadres du niveau 005. Tirez franchement pour décrocher un carré aimanté. Les réglages de calibration existants sont conservés.
+
 ## Télécharger et jouer
 
 [**Télécharger PINCH pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
