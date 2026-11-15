@@ -2,6 +2,8 @@
 
 Un escape game orbital, un peu magique, où vos mains deviennent les commandes. Explorez l’arche, collectez les reliques et ouvrez la Porte des Astres.
 
+**Nouveau dans la version 2.2.2 :** recherche des mains éloignées dans des zones agrandies, suivi des deux mains plus stable et aperçu de calibration agrandi avec compteur. PINCH demande une image HD si la webcam le permet ; la portée réelle dépend aussi de l’éclairage et du matériel.
+
 ### Caméra utilisée dans une autre application
 
 La version 2.2.1 ajoute un lecteur Windows en **lecture partagée**, essayé automatiquement si la webcam par défaut est occupée. Le sas permet aussi de choisir directement ce mode ou une caméra virtuelle installée. Les images restent sur votre PC ; aucun microphone n’est demandé.
