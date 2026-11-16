@@ -18,11 +18,11 @@ Aucune installation nécessaire. Le fichier distribué conserve le nom `PINCH-Po
 
 ### Préversion Unity : le suivi des mains en priorité
 
-[**Essayer la première salle Unity pour Windows**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.1/PINCH-Portable.exe)
+[**Essayer la première salle Unity pour Windows**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.2/PINCH-Portable.exe)
 
 La migration a commencé : sas obligatoire, deux mains articulées, relique à saisir, sac et couronne aimantée. Le suivi natif tourne indépendamment du rendu, avec un repère vidéo constant, des identités persistantes, une pince mesurée en 3D estimée et un diagnostic visible. Il utilise toujours MediaPipe ; les doigts occultés et certaines rotations restent difficiles avec une webcam.
 
-**Toute l’aventure n’est pas encore portée dans Unity.** Le pupitre central de cette préversion permet d’ouvrir la version complète 2.4.1 embarquée, avec ses sauvegardes et ses exercices. Le nouveau suivi s’applique pour le moment à la salle Unity. [Lire les détails de la préversion](https://github.com/Toka120/PINCH/releases/tag/v3.0.0-preview.1).
+**Toute l’aventure n’est pas encore portée dans Unity.** Le pupitre central de cette préversion permet d’ouvrir la version complète 2.4.1 embarquée, avec ses sauvegardes et ses exercices. Le nouveau suivi s’applique pour le moment à la salle Unity. La préversion 2 corrige les faux signaux de perte qui interrompaient la pince dans le sas et ajoute l’introduction avec le logo officiel MirorStudio. [Lire les détails de la préversion](https://github.com/Toka120/PINCH/releases/tag/v3.0.0-preview.2).
 
 ## Vos gestes font le jeu
 
