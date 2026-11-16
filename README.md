@@ -18,15 +18,17 @@ Aucune installation nécessaire. Le fichier distribué conserve le nom `PINCH-Po
 
 ### Préversion Unity : le suivi des mains en priorité
 
-[**Essayer l’arrivée à Astra et le Seuil de Résonance dans Unity**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.4/PINCH-Portable.exe)
+[**Essayer l’épisode I et les déplacements dans Unity**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.5/PINCH-Portable.exe)
 
 La migration a commencé : sas obligatoire, deux mains articulées, relique à saisir, sac et couronne aimantée. Le suivi natif tourne indépendamment du rendu, avec un repère vidéo constant, des identités persistantes, une pince mesurée en 3D estimée et un diagnostic visible. Il utilise toujours MediaPipe ; les doigts occultés et certaines rotations restent difficiles avec une webcam.
 
-Dans la nouvelle entrée, **pincez deux prises de lumière, puis écartez les mains** : une fenêtre s’ouvre sur la scène 3D d’Astra. L’ouverture reste acquise quand vous relâchez ou perdez une main. Une pause, des sons réactifs et un souvenir facultatif accompagnent le geste. Relâchez et posez l’index sur **Traverser le passage** pour rejoindre la salle de l’éclat.
+Dans la nouvelle entrée, **pincez deux prises de lumière, puis écartez les mains** : une fenêtre s’ouvre sur la scène 3D d’Astra. L’ouverture reste acquise quand vous relâchez ou perdez une main. Une pause, des sons réactifs et un souvenir facultatif accompagnent le geste. Relâchez et posez l’index sur **Traverser le passage** pour rejoindre le Sas des Échos et commencer l’exploration.
 
 Après les trois étapes de calibration, une **cinématique 3D de 26 secondes démarre automatiquement** : réveil de la capsule, découverte de la station et accueil d’Élye avec une voix française et des sous-titres. Elle peut être passée à l’index ou revue depuis la carte ; la narration est incluse et fonctionne hors ligne.
 
-**Toute l’aventure n’est pas encore portée dans Unity.** Le pupitre central permet d’ouvrir la version complète 2.4.1 embarquée, avec ses sauvegardes et ses exercices. Le suivi natif concerne le Seuil et la salle Unity. L’introduction garde le logo officiel MirorStudio. [Lire les détails de la préversion](https://github.com/Toka120/PINCH/releases/tag/v3.0.0-preview.4).
+Le parcours principal de l’**épisode I** est désormais jouable dans cinq lieux Unity reliés : jardin, sas, archives, observatoire et porte. Formez un **V avec l’index et le majeur**, les deux autres doigts repliés : vers le haut pour avancer, vers le bas pour reculer, vers les côtés pour tourner. Une brève confirmation précède le mouvement ; une perte de suivi, une pince ou un menu l’arrête. Ouvrez la main avant de reprendre. ZQSD ou les flèches restent disponibles.
+
+**Toute la richesse de l’aventure n’est pas encore portée dans Unity.** Le parcours principal, l’inventaire, les énigmes et cinq souvenirs facultatifs sont natifs ; le pupitre permet toujours d’ouvrir la 2.4.1 embarquée pour tous les secrets, transmissions, ateliers et exercices, avec ses sauvegardes séparées. L’introduction garde le logo officiel MirorStudio. [Lire les détails de la préversion](https://github.com/Toka120/PINCH/releases/tag/v3.0.0-preview.5).
 
 ## Vos gestes font le jeu
 
@@ -81,5 +83,5 @@ L’EXE n’est pas signé numériquement ; Windows peut afficher un avertisseme
 ---
 
 **Sensory · MirorStudio**  
-Suivi : MediaPipe Tasks Vision · Rendu : Three.js · Application : Electron.  
+Suivi : MediaPipe Tasks Vision · Préversion : Unity · Version stable : Three.js et Electron.  
 Ancien nom du projet : PINCH ORBIT. Le dépôt et le nom de l’artefact de distribution sont conservés pour la continuité des liens.
