@@ -12,23 +12,23 @@ Pour protéger les refuges de la **Marée blanche**, Astra a choisi le silence. 
 
 **Sensory** est un escape game orbital joué avec les mains devant une webcam : pincez pour saisir, déplacez les reliques et utilisez-les ailleurs dans la station. Les mains holographiques font le lien entre vos gestes et le monde du jeu.
 
-[**Télécharger Sensory pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/latest/download/PINCH-Portable.exe)
+[**Télécharger Sensory pour Windows 64 bits**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.6/PINCH-Portable.exe)
 
 Aucune installation nécessaire. Le fichier distribué conserve le nom `PINCH-Portable.exe` pour garder le lien de téléchargement existant ; vous pouvez le renommer **Sensory.exe**.
 
-### Préversion Unity : le suivi des mains en priorité
+### Sensory sous Unity : entrer directement dans la station
 
-[**Essayer l’épisode I et les déplacements dans Unity**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.5/PINCH-Portable.exe)
+[**Épisode I et déplacements dans Unity**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.6/PINCH-Portable.exe)
 
 La migration a commencé : sas obligatoire, deux mains articulées, relique à saisir, sac et couronne aimantée. Le suivi natif tourne indépendamment du rendu, avec un repère vidéo constant, des identités persistantes, une pince mesurée en 3D estimée et un diagnostic visible. Il utilise toujours MediaPipe ; les doigts occultés et certaines rotations restent difficiles avec une webcam.
 
-Dans la nouvelle entrée, **pincez deux prises de lumière, puis écartez les mains** : une fenêtre s’ouvre sur la scène 3D d’Astra. L’ouverture reste acquise quand vous relâchez ou perdez une main. Une pause, des sons réactifs et un souvenir facultatif accompagnent le geste. Relâchez et posez l’index sur **Traverser le passage** pour rejoindre le Sas des Échos et commencer l’exploration.
+**Après la calibration et l’introduction, vous entrez directement dans la station et pouvez vous déplacer.** Le Seuil de Résonance devient une activité facultative depuis la carte. Vous pouvez y pincer deux prises de lumière et écarter les mains pour tisser une fenêtre sur Astra, ou choisir **Entrer dans la station** à tout moment sans finir le tissage.
 
 Après les trois étapes de calibration, une **cinématique 3D de 26 secondes démarre automatiquement** : réveil de la capsule, découverte de la station et accueil d’Élye avec une voix française et des sous-titres. Elle peut être passée à l’index ou revue depuis la carte ; la narration est incluse et fonctionne hors ligne.
 
 Le parcours principal de l’**épisode I** est désormais jouable dans cinq lieux Unity reliés : jardin, sas, archives, observatoire et porte. Formez un **V avec l’index et le majeur**, les deux autres doigts repliés : vers le haut pour avancer, vers le bas pour reculer, vers les côtés pour tourner. Une brève confirmation précède le mouvement ; une perte de suivi, une pince ou un menu l’arrête. Ouvrez la main avant de reprendre. ZQSD ou les flèches restent disponibles.
 
-**Toute la richesse de l’aventure n’est pas encore portée dans Unity.** Le parcours principal, l’inventaire, les énigmes et cinq souvenirs facultatifs sont natifs ; le pupitre permet toujours d’ouvrir la 2.4.1 embarquée pour tous les secrets, transmissions, ateliers et exercices, avec ses sauvegardes séparées. L’introduction garde le logo officiel MirorStudio. [Lire les détails de la préversion](https://github.com/Toka120/PINCH/releases/tag/v3.0.0-preview.5).
+L’application est désormais **uniquement la version Unity**, avec le parcours principal, l’inventaire, les énigmes et cinq souvenirs facultatifs. L’ancien exécutable et le bouton qui l’ouvrait ont été retirés. Les contenus supplémentaires qui ne sont pas encore portés ne sont pas présentés comme disponibles. L’introduction garde le logo officiel MirorStudio. [Lire les détails de cette version](https://github.com/Toka120/PINCH/releases/tag/v3.0.0-preview.6).
 
 ## Vos gestes font le jeu
 
@@ -52,15 +52,15 @@ Cinq lieux reliés, à découvrir et à revisiter :
 
 Élye est une présence née des messages librement confiés à la station. Les traces des sœurs Iria et Mara Venn et du cartographe Naël accompagnent votre exploration.
 
-Le journal conserve les indices ; le sac et les énigmes résolues sont sauvegardés. **13 souvenirs, 8 transmissions, trois fragments cachés et un épilogue alternatif** enrichissent l’aventure. Les secrets restent facultatifs et accessibles après la fin normale.
+Le journal conserve les indices ; le sac, les énigmes résolues, la position et l’orientation sont sauvegardés. **Cinq souvenirs facultatifs** enrichissent ce parcours et restent accessibles après la fin normale.
 
-Les ateliers **Construction**, **Précision** et **Jeu libre**, ainsi que les **cinq exercices historiques** accessibles par Entraînement, restent dans la même application.
+Le pupitre central donne accès à la carte, au journal, au diagnostic des mains et à un guide des déplacements.
 
 ## Avant de jouer
 
-Lancez Sensory, découvrez le générique **MirorStudio** et le synopsis, puis cliquez sur **Commencer le voyage**. Activez la caméra et effectuez la **calibration obligatoire à chaque session** : vos pinces, votre espace, votre précision. Après chaque étape validée, posez l’index sur **Continuer** ou cliquez sur le bouton.
+Lancez Sensory, découvrez le logo **MirorStudio**, puis effectuez la **calibration obligatoire à chaque session** : vos pinces, votre espace, votre précision. L’introduction démarre automatiquement, puis ouvre directement la station. Après deux secondes d’introduction, **Entrer dans la station**, Entrée ou Échap permettent de la passer.
 
-**Windows 64 bits, webcam et éclairage suffisant.** Aucune connexion Internet nécessaire pour jouer. Après calibration, souris et tactile restent possibles si la caméra est arrêtée. Les objets sont affichés en 3D et déplacés sur un plan face à vous.
+**Windows 64 bits, webcam et éclairage suffisant.** Aucune connexion Internet nécessaire pour jouer. La souris reste disponible pour les menus, et ZQSD, WASD ou les flèches pour les déplacements. Les reliques se saisissent avec les mains.
 
 La vidéo est traitée sur votre PC, sans enregistrement ni envoi. Aucun microphone n’est demandé. Le suivi d’une caméra unique reste une estimation : sa qualité dépend de la webcam, de l’éclairage et des doigts masqués.
 
@@ -74,14 +74,10 @@ L’EXE n’est pas signé numériquement ; Windows peut afficher un avertisseme
 
 ## Dernières améliorations
 
-**2.4.1** — Validation des paumes et poignets, confirmation des nouvelles mains sur plusieurs images et regroupement renforcé des doubles détections avant la calibration.
-
-**2.4.0** — Mains holographiques articulées en 3D, identités plus stables après de courtes pertes de suivi et console centrale à quatre grandes commandes.
-
-**2.3.0** — Fermeture des souvenirs et transmissions par balayage de la main ouverte.
+**Préversion 6** — Accès direct à la station après calibration et introduction, guide visible des premiers déplacements, Seuil facultatif et retrait de l’ancienne application embarquée.
 
 ---
 
 **Sensory · MirorStudio**  
-Suivi : MediaPipe Tasks Vision · Préversion : Unity · Version stable : Three.js et Electron.  
+Suivi : MediaPipe Tasks Vision · Moteur : Unity.  
 Ancien nom du projet : PINCH ORBIT. Le dépôt et le nom de l’artefact de distribution sont conservés pour la continuité des liens.
