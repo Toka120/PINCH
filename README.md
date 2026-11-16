@@ -18,13 +18,15 @@ Aucune installation nécessaire. Le fichier distribué conserve le nom `PINCH-Po
 
 ### Préversion Unity : le suivi des mains en priorité
 
-[**Essayer le Seuil de Résonance dans Unity pour Windows**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.3/PINCH-Portable.exe)
+[**Essayer l’arrivée à Astra et le Seuil de Résonance dans Unity**](https://github.com/Toka120/PINCH/releases/download/v3.0.0-preview.4/PINCH-Portable.exe)
 
 La migration a commencé : sas obligatoire, deux mains articulées, relique à saisir, sac et couronne aimantée. Le suivi natif tourne indépendamment du rendu, avec un repère vidéo constant, des identités persistantes, une pince mesurée en 3D estimée et un diagnostic visible. Il utilise toujours MediaPipe ; les doigts occultés et certaines rotations restent difficiles avec une webcam.
 
 Dans la nouvelle entrée, **pincez deux prises de lumière, puis écartez les mains** : une fenêtre s’ouvre sur la scène 3D d’Astra. L’ouverture reste acquise quand vous relâchez ou perdez une main. Une pause, des sons réactifs et un souvenir facultatif accompagnent le geste. Relâchez et posez l’index sur **Traverser le passage** pour rejoindre la salle de l’éclat.
 
-**Toute l’aventure n’est pas encore portée dans Unity.** Le pupitre central permet d’ouvrir la version complète 2.4.1 embarquée, avec ses sauvegardes et ses exercices. Le suivi natif concerne le Seuil et la salle Unity. L’introduction garde le logo officiel MirorStudio. [Lire les détails de la préversion](https://github.com/Toka120/PINCH/releases/tag/v3.0.0-preview.3).
+Après les trois étapes de calibration, une **cinématique 3D de 26 secondes démarre automatiquement** : réveil de la capsule, découverte de la station et accueil d’Élye avec une voix française et des sous-titres. Elle peut être passée à l’index ou revue depuis la carte ; la narration est incluse et fonctionne hors ligne.
+
+**Toute l’aventure n’est pas encore portée dans Unity.** Le pupitre central permet d’ouvrir la version complète 2.4.1 embarquée, avec ses sauvegardes et ses exercices. Le suivi natif concerne le Seuil et la salle Unity. L’introduction garde le logo officiel MirorStudio. [Lire les détails de la préversion](https://github.com/Toka120/PINCH/releases/tag/v3.0.0-preview.4).
 
 ## Vos gestes font le jeu
 
